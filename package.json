@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.0.0-rc.5",
     "cheerio": "^0.20.0",
     "superagent": "^2.0.0"
   }

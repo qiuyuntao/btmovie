@@ -11,6 +11,14 @@
     </ul>
 
     <script type="text/javascript">
+    $.ajax({
+      url: 'https://loan.stable.mayibank.net/act/time.htm',
+      dataType: 'jsonp',
+      success: function(res) {
+        console.log(res)
+      }
+    })
+
       $.ajax({
         url: './data.json',
         success: function(data) {
